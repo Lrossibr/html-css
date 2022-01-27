@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" href="style_desafio2.css.?v8">
+    <title>Document</title>
+</head>
+<body>
+    <header class="flex centralizar">
+        <h1>ME ACHE!</h1>
+        <h2>ENCONTRE UM ENDEREÇO PELO NÚMERO DO CEP</h2>
+
+    </header>
+    <main class="flex">
+        <div class="img flex centralizar">
+            <figure>
+                <span class="material-icons icon flex">
+                travel_explore
+                </span>
+            </figure>
+        </div>
+        <form class="flex" method="post" name="E-mail">
+            <fieldset class="flex">
+                <legend>Cep</legend>
+                <label for="cep"></label>
+                <input type="text" required name="cep" value="">
+                <legend>rua</legend>
+                <label for="rua"></label>
+                <input type="text" name="rua" value="">
+                <legend>Bairro</legend>
+                <label for="bairro"></label>
+                <input type="text" name="bairro" value="">
+                <legend>Cidade</legend>
+                <label for="cidade"></label>
+                <input type="text" name="cidade" value="">
+                <legend>Estado</legend>
+                <label for="estado"></label>
+                <input type="text" name="estado" value="">
+                <input class="botao flex centralizar" type="submit" name="Buscar" value="Enviar">
+            </fieldset>   
+
+        </form>
+    </main>
+</body>
+</html>
